@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const Users = ({ user, deleteUser, setEditUser, setViewForm, setModalsIn }) => {
-    const url = 'https://backend-todo-app-jorge.onrender.com/users'
+    const url = 'https://backend-todo-app-jorge.onrender.com/users/'
 
     const handleDelete = () => {
         deleteUser(url, user.id)

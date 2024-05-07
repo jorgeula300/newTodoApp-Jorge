@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 
 const FormModal = ({ viewForm, setViewForm, createUser, updateUser, editUser, setEditUser, setModalsIn }) => {
-    const url = 'https://backend-todo-app-jorge.onrender.com/users'
+    const url = 'https://backend-todo-app-jorge.onrender.com/users/'
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
     useEffect(() => {
